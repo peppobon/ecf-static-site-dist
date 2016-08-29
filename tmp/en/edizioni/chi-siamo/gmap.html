@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synchronous Loading</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCywkdck5l8PQbREjAGtlccbdBJ6jAZG9A&callback=initMap">
+    </script>
+    <script type="text/javascript">
+        var map;
+
+        function initMap() {
+            var cadolfinLatLng = {lat: 45.4350015, lng: 12.3256493};
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: cadolfinLatLng,
+                zoom: 15,
+            });
+
+            var marker = new google.maps.Marker({
+                position: cadolfinLatLng,
+                map: map,
+                title: "Ca'Dolfin"
+            });
+        }
+    </script>
+  </body>
+</html>

@@ -57,19 +57,42 @@
                         <ul class="menu">
                             <li>&#160;</li>
                             <li>
+                                <a href="/it/edizioni/archivio-istituzionale/">Archivio istituzionale</a>
+                            </li>
+
+
+
+                            <li>
                                 <a href="/it/edizioni/avvertenze-generali/">Avvertenze generali</a>
                             </li>
+
+                            <!--
                             <li>
                                 <a href="/it/edizioni/presentare-un-progetto/">Presentare un progetto</a>
                             </li>
+                            -->
                             <li>
                                 <a href="/it/edizioni/certificazione-scientifica/">Certificazione scientifica</a>
                             </li>
-                            <li>
-                                <a href="/it/edizioni/norme-redazionali/">Linee guida e norme redazionali</a>
-                            </li>
+
                             <li>
                                 <a href="/it/edizioni/copy-licencing/">Copyright e licenze</a>
+                            </li>
+
+                            <li>
+                                <a href="/it/edizioni/costi/">Costi</a>
+                            </li>
+                            <li>
+                                <a href="/it/edizioni/dati-personali/">Dati personali</a>
+                            </li>
+                            <li>
+                                <a href="/it/edizioni/dichiarazione-open-access/">Dichiarazione Open Access</a>
+                            </li>
+                            <li>
+                                <a href="/it/edizioni/edizioni-stampa/">Edizioni a stampa</a>
+                            </li>
+                            <li>
+                                <a href="/it/edizioni/norme-redazionali/">Norme redazionali</a>
                             </li>
 
                         </ul>
@@ -102,13 +125,6 @@
 </div>
 
 
-
-    <div style="font-size:smaller; margin:1em 3%; padding: 1em; border:1px dotted red;">
-        <p>Il sito è momentaneamente in corso di aggiornamento, al fine di fornire un servizio migliore. Alcuni
-            contenuti potrebbero non essere immediatamente disponibili. Grazie per l'attenzione.</p>
-        <p>The site is temporarily being updated, in order to provide a better service. Some content may not be
-            immediately available. Thank you for your attention.</p>
-    </div>
 
 
 
@@ -147,90 +163,60 @@
 
 
     <div class="column row">
-    <h1>Presentare un progetto</h1>
+    <h1>Submitting a proposal</h1>
 </div>
 
 <div class="row">
-    <div class="small-12 medium-6 columns">
-        <h2>Come sottoporre un progetto editoriale</h2>
-        <p>Chi intende sottoporre un progetto editoriale (rivista o collana) all'attenzione delle <strong>Edizioni Ca' Foscari</strong> deve definirne le caratteristiche scientifiche e materiali (struttura interna, periodicità ecc.) e le strutture di funzionamento (comitato editoriale, direzione, redazione, sistema di peer review).</p>
-        <p>Ai fini del posizionamento nei ranking internazionali, è imprescindibile che ogni rivista abbia un abstract in inglese per ciascun articolo, peer review anonimo per l’accettazione degli articoli e regolarità di uscita.</p>
-        <p>Per le riviste è inoltre fondamentale assicurare continuità di pubblicazione per almeno 3 anni o per 3 numeri consecutivi nel caso di periodicità inferiore all’anno.</p>
-        <p>Ogni progetto deve essere presentato al <strong>referente di area</strong>:</p>
-        <ul>
-            <li>area linguistica: <strong>Marina Buzzoni</strong></li>
-            <li>area umanistica: <strong>Martina Frank</strong></li>
-            <li>area economica: <strong>Stefano Magrini</strong></li>
-            <li>area scientifica: <strong>Alvise Perosa</strong>.</li>
-        </ul>
-        <p>La prossima <strong>scadenza per la presentazione dei progetti</strong> è il <strong>30 giugno 2014</strong>.</p>
+    <div class="small-7 small-centered columns">
+        <p>This section is devoted to Prospective Authors (for both scientific journals and book series), wishing to
+            submit a book proposal to Edizioni Ca’ Foscari.
+        </p>
+        <p>The proposal is examined by the ECF Scientific Committee, which will directly contact the representative
+            suggested within the proposal.
+        </p>
+        <p>We kindly ask you to provide all the information requested and an exhaustive description of the project’s
+            scientific profile.
+        </p>
+        <p>The projects can refer to both unprecedented or in print journals/book series.
+        </p>
+        <p>For journal projects, it is necessary to specify the designated Scientific Editor and to provide his personal
+            contacts. Should the journal be already active, it would be necessary to specify the Editor and the data
+            concerning the enrollment by the Court.
+        </p>
+        <p>The submitting of a proposal assumes that the Publishing House’s guidelines have been examined and accepted.
+        </p>
 
-
-        <p>L'invio di una proposta presuppone la presa visione e accettazione delle norme redazionali della casa editrice. Per i modelli di impaginazione è possibile fare riferimento alle Indicazioni per la pubblicazione e alle opere già edite. Il portale delle pubblicazioni ECF utilizza ECFWorkflow, un programma di amministrazione e pubblicazione di riviste e monografie open source open source, sviluppato e supportato liberamente da Edizioni Ca' Foscari.</p>
-    </div>
-
-    <div class="small-12 medium-6 columns">
-        <form action="/script/form_pubblica_con_noi" method="post" id="pubblica_con_noi">
-            <label>Nome Utente
+        <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post" id="pubblica_con_noi">
+            <label>project name
+                <input type="text" name="nome_progetto"/>
+            </label>
+            <!--
+        <label>Editor email
+            <input type="text" name="email_editor"/>
+        </label>-->
+            <label>Name
                 <input type="text" name="nome_utente"/>
             </label>
-            <label>Dipartimento di appartenenza
-                <input type="text" name="dip_app"/>
+            <label>Family name
+                <input type="text" name="cognome_utente"/>
+            </label>
+            <label>Affiliation
+                <input type="text" name="affiliazione"/>
             </label>
             <label>Email
                 <input type="text" name="email"/>
             </label>
-            <label>Tipologia della pubblicazione
-                <select name="tipologia">
-                    <option value="rivista">Rivista</option>
-                    <option value="quaderno">Quaderno</option>
-                    <option value="collane">Collane di monografie</option>
-                </select>
+            <label>Message
+                <textarea name="textarea_messaggio_utente"></textarea>
             </label>
-            <label>Periodicità
-                <select name="periodicita">
-                    <option value="annuale">Annuale</option>
-                    <option value="semestrale">Semestrale</option>
-                    <option value="trimestrale">Trimestrale</option>
-                    <option value="bimestrale">Bimestrale</option>
-                    <option value="saltuaria">Saltuaria</option>
-                </select>
-            </label>
-            <label>Titolo
-                <input type="text" name="titolo"/>
-            </label>
-            <label>Direttore responsabile
-                <input type="text" name="curatore"/>
-            </label>
-            <label>Area disciplinare di riferimento
-                <select name="area_disc">
-                    <option value="economica::smagrini@unive.it">Economica</option>
-                    <option value="linguistica::mbuzzoni@unive.it">Linguistica</option>
-                    <option value="scientifica::alvise@unive.it">Scientifica</option>
-                    <option value="umanistica::martina31@unive.it">Umanistica</option>
-                </select>
-            </label>
-            <label>Ambito di ricerca
-                <input type="text" name="ambito_ric"/>
-            </label>
-            <label>Ambito scientifico
-                <input type="text" name="ambito_scien"/>
-            </label>
-            <label>Data prevista delle uscite
-                <input type="text" name="data_uscite"/>
-            </label>
-            <label>Data prevista prima uscita
-                <input type="text" name="data_prima_uscita"/>
-            </label>
-            <label>Descrizione del progetto (max 1000 caratteri)
-                <textarea name="descr" rows="6" cols="2"></textarea>
-            </label>
+
 
             <input type="submit" value="Invia" class="button"/>
 
         </form>
-
     </div>
+
+
 </div>
 
 

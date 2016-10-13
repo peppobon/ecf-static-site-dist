@@ -57,19 +57,42 @@
                         <ul class="menu">
                             <li>&#160;</li>
                             <li>
+                                <a href="/en/edizioni/archivio-istituzionale/">Archivio istituzionale</a>
+                            </li>
+
+
+
+                            <li>
                                 <a href="/en/edizioni/avvertenze-generali/">General Instructions</a>
                             </li>
+
+                            <!--
                             <li>
                                 <a href="/en/edizioni/presentare-un-progetto/">Submitting a proposal</a>
                             </li>
+                            -->
                             <li>
                                 <a href="/en/edizioni/certificazione-scientifica/">Scientific certification</a>
                             </li>
-                            <li>
-                                <a href="/en/edizioni/norme-redazionali/">Editorial Guidelines</a>
-                            </li>
+
                             <li>
                                 <a href="/en/edizioni/copy-licencing/">Copyright and licencing</a>
+                            </li>
+
+                            <li>
+                                <a href="/en/edizioni/costi/">Costi</a>
+                            </li>
+                            <li>
+                                <a href="/en/edizioni/dati-personali/">Dati personali</a>
+                            </li>
+                            <li>
+                                <a href="/en/edizioni/dichiarazione-open-access/">Dichiarazione Open Access</a>
+                            </li>
+                            <li>
+                                <a href="/en/edizioni/edizioni-stampa/">Edizioni a stampa</a>
+                            </li>
+                            <li>
+                                <a href="/en/edizioni/norme-redazionali/">Editorial Guidelines</a>
                             </li>
 
                         </ul>
@@ -102,13 +125,6 @@
 </div>
 
 
-
-    <div style="font-size:smaller; margin:1em 3%; padding: 1em; border:1px dotted red;">
-        <p>Il sito è momentaneamente in corso di aggiornamento, al fine di fornire un servizio migliore. Alcuni
-            contenuti potrebbero non essere immediatamente disponibili. Grazie per l'attenzione.</p>
-        <p>The site is temporarily being updated, in order to provide a better service. Some content may not be
-            immediately available. Thank you for your attention.</p>
-    </div>
 
 
 
@@ -151,85 +167,52 @@
 </div>
 
 <div class="row">
-    <div class="small-12 medium-6 columns">
-        <p>This section is devoted to Prospective Authors (for both scientific journals and book series), wishing to submit a book proposal to Edizioni Ca’ Foscari.</p>
-        <p>The proposal is examined by the ECF Scientific Committee, which will directly contact the representative suggested within the proposal.</p>
-        <p>We kindly ask you to provide all the information requested and an exhaustive description of the project’s scientific profile.</p>
-        <p>The projects can refer to both unprecedented or in print journals/book series.</p>
-        <p>For journal projects, it is necessary to specify the designated Scientific Editor and to provide his personal contacts. Should the journal be already active, it would be necessary to specify the Editor and the data concerning the enrollment by the Court.</p>
-        <p>The submitting of a proposal assumes that the Publishing House’s guidelines have been examined and accepted.</p>
-    </div>
+    <div class="small-7 small-centered columns">
+        <p>This section is devoted to Prospective Authors (for both scientific journals and book series), wishing to
+            submit a book proposal to Edizioni Ca’ Foscari.
+        </p>
+        <p>The proposal is examined by the ECF Scientific Committee, which will directly contact the representative
+            suggested within the proposal.
+        </p>
+        <p>We kindly ask you to provide all the information requested and an exhaustive description of the project’s
+            scientific profile.
+        </p>
+        <p>The projects can refer to both unprecedented or in print journals/book series.
+        </p>
+        <p>For journal projects, it is necessary to specify the designated Scientific Editor and to provide his personal
+            contacts. Should the journal be already active, it would be necessary to specify the Editor and the data
+            concerning the enrollment by the Court.
+        </p>
+        <p>The submitting of a proposal assumes that the Publishing House’s guidelines have been examined and accepted.
+        </p>
 
-    <div class="small-12 medium-6 columns">
-        <form action="/script/form_pubblica_con_noi" method="post" id="pubblica_con_noi">
-            <label>Name and Surname
+        <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post" id="pubblica_con_noi">
+            <label>project name
+                <input type="text" name="nome_progetto"/>
+            </label>
+            <label>Name
                 <input type="text" name="nome_utente"/>
             </label>
-            <label>University and Department
-                <input type="text" name="dip_app"/>
+            <label>Family name
+                <input type="text" name="cognome_utente"/>
+            </label>
+            <label>Affiliation
+                <input type="text" name="affiliazione"/>
             </label>
             <label>Email
                 <input type="text" name="email"/>
             </label>
-            <label>Type of Publication
-                <select name="tipologia">
-                    <option value="rivista">Rivista</option>
-                    <option value="quaderno">Quaderno</option>
-                    <option value="collane">Collane di monografie</option>
-                </select>
-            </label>
-            <label>Periodicity
-                <select name="periodicita">
-                    <option value="annuale">Annual</option>
-                    <option value="semestrale">Half-yearly</option>
-                    <option value="trimestrale">Quarterly</option>
-                    <option value="bimestrale">Bi-monthly</option>
-                    <option value="saltuaria">Any</option>
-                </select>
-            </label>
-            <label>Title
-                <input type="text" name="titolo"/>
-            </label>
-            <label>Scientific Director
-                <input type="text" name="curatore"/>
-            </label>
-            <label>Subject Area
-                <select name="area_disc">
-                    <option>Archive-keeping, Bibliography, Paleography</option>
-                    <option>Arts</option>
-                    <option>Business Administration</option>
-                    <option>Literature</option>
-                    <option>Science</option>
-                    <option>Languages and Cultures of the Middle and Far East</option>
-                    <option>Antiquity Studies</option>
-                    <option>Economics</option>
-                    <option>Sociology</option>
-                    <option>Legal Studies</option>
-                    <option>Linguistics</option>
-                    <option>Historical Studies</option>
-                </select>
-            </label>
-            <label>Research Area
-                <input type="text" name="ambito_ric"/>
-            </label>
-            <label>Scientific Area
-                <input type="text" name="ambito_scien"/>
-            </label>
-            <label>Expected Date for Publications
-                <input type="text" name="data_uscite"/>
-            </label>
-            <label>Expected Date for First Publication
-                <input type="text" name="data_prima_uscita"/>
-            </label>
-            <label>Content Description (max. 1000 words)
-                <textarea name="descr" rows="6" cols="2"></textarea>
+            <label>Message
+                <textarea name="textarea_messaggio_utente"></textarea>
             </label>
 
-            <input type="submit" value="Send" class="button"/>
+
+            <input type="submit" value="Invia" class="button"/>
 
         </form>
-
     </div>
+
+
 </div>
 
 

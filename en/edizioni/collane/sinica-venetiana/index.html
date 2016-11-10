@@ -163,22 +163,25 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Sinica venetiana
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/sinica-venetiana/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/sinica-venetiana/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Topic</span><span class="book-meta-val"><a href="/en/edizioni/temi/lingue-e-culture-del-medio-ed-estremo-oriente/">Languages and Cultures of the Middle and Far East&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Topic</span><span
+                                class="book-meta-val"><a
+                                href="/en/edizioni/temi/lingue-e-culture-del-medio-ed-estremo-oriente/">Languages and Cultures of the Middle and Far East&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -195,9 +198,10 @@
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -304,11 +308,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Dipartimento di Studi sull’Asia e sull’Africa Mediterranea<br /> Università Ca’ Foscari Venezia<br /> Palazzo Vendramin dei Carmini<br /> Dorsoduro 3462<br /> 30123 Venezia<br /> Italia</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_23"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -321,10 +373,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-82-3/"><img src="/covers/books/978-88-97735-82-3/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Il liuto e i libri - -->16 Oct 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-82-3/">Il liuto e i libri</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-82-3/"><img src="/covers/books/978-88-97735-82-3/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Il liuto e i libri - -->16 Oct 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-82-3/">Il liuto e i libri</a></small>
+                                </h3>
                                 <p class="authors">edited by Magda Abbiati, Federico Greselin</p>
                                 
                                     <p>Questo volume in onore di Mario Sabattini, professore emerito tra i maggiori esperti al mondo dell’opera di Zhu Guangqian e dell’introduzione del crocianesimo in Cina, inaugura una nuova collana dedicata agli studi cinesi: <i>Sinica venetiana</i>. E quale migliore avvio per la collana dell’omaggio reso a colui che è stato regista ...</p>
@@ -338,10 +392,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-042-6/"><img src="/covers/books/978-88-6969-042-6/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--La lingua cinese: variazioni sul tema - -->1 Nov 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-042-6/">La lingua cinese: variazioni sul tema</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-042-6/"><img src="/covers/books/978-88-6969-042-6/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--La lingua cinese: variazioni sul tema - -->1 Nov 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-042-6/">La lingua cinese: variazioni sul tema</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Viene qui presentata una raccolta di dieci saggi, di argomento linguistico in senso lato, che mirano a illustrare peculiarità e connotazioni proprie della lingua cinese in ambiti settoriali e modalità di utilizzo differenti. Scritti da sinologi il cui campo di specializzazione spazia dalla linguistica alla critica letteraria, dai cultural studies ...</p>
@@ -355,10 +411,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-098-3/"><img src="/covers/books/978-88-6969-098-3/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Linking Ancient and Contemporary - -->29 Sep 2016
-                                <br/><a href="/en/edizioni/libri/978-88-6969-098-3/">Linking Ancient and Contemporary</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-098-3/"><img src="/covers/books/978-88-6969-098-3/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Linking Ancient and Contemporary - -->29 Sep 2016
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-098-3/">Linking Ancient and Contemporary</a></small>
+                                </h3>
                                 <p class="authors">edited by Tiziana Lippiello, Chen Yuehong 陈跃红, Maddalena Barenghi</p>
                                 
                                     <p>Linking Ancient and Contemporary: Continuities and Discontinuities in Chinese Literature <br /> is a collection of essays which stems from a project of cooperation between the Department of Asian and African Studies of Ca’ Foscari University of Venice and the Department of Chinese Language and Literature of Peking University. <br ...</p>

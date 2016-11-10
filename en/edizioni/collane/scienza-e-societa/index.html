@@ -163,19 +163,19 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Scienza e società
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/scienza-e-societa/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/scienza-e-societa/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
                     
@@ -196,9 +196,10 @@ Dorsoduro 2137
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -242,14 +243,59 @@ Dorsoduro 2137
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti"> Dipartimento di Scienze Ambientali, Informatica e Statistica
-Università Ca’ Foscari Venezia
-Dorsoduro 2137
-30121 Venezia</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_25"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -262,10 +308,12 @@ Dorsoduro 2137
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-02-1/"><img src="/covers/books/978-88-97735-02-1/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Donne e tecnologie informatiche - -->1 May 2012
-                                <br/><a href="/en/edizioni/libri/978-88-97735-02-1/">Donne e tecnologie informatiche</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-02-1/"><img src="/covers/books/978-88-97735-02-1/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Donne e tecnologie informatiche - -->1 May 2012
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-02-1/">Donne e tecnologie informatiche</a></small>
+                                </h3>
                                 <p class="authors">edited by Emanuela Boschetto, Antonio Candiello, Agostino Cortesi, Fabio Fignani</p>
                                 
                                     <p></p>
@@ -279,10 +327,12 @@ Dorsoduro 2137
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-004-4/"><img src="/covers/books/978-88-6969-004-4/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Algae as a Potential Source of Food and Energy in Developing Countries - -->17 Mar 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-004-4/">Algae as a Potential Source of Food and Energy in Developing Countries</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-004-4/"><img src="/covers/books/978-88-6969-004-4/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Algae as a Potential Source of Food and Energy in Developing Countries - -->17 Mar 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-004-4/">Algae as a Potential Source of Food and Energy in Developing Countries</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>_</p>
@@ -296,10 +346,12 @@ Dorsoduro 2137
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-89-2/"><img src="/covers/books/978-88-97735-89-2/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Misurare l’innovazione digitale - -->25 Mar 2015
-                                <br/><a href="/en/edizioni/libri/978-88-97735-89-2/">Misurare l’innovazione digitale</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-89-2/"><img src="/covers/books/978-88-97735-89-2/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Misurare l’innovazione digitale - -->25 Mar 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-89-2/">Misurare l’innovazione digitale</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Esistono indicatori in grado di descrivere lo stato dell’innovazione digitale dei territori? È possibile tramite di essi esprimere la dinamicità dei cambiamenti e quindi evidenziare i trend? È quindi misurabile l’impatto delle politiche di innovazione perseguite dalla Pubblica Amministrazione locale? In questo testo si cerca di dare una risposta a ...</p>

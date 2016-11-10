@@ -163,19 +163,19 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Philosophica
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/philosophica/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/philosophica/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
                     
@@ -198,9 +198,10 @@ philosophica@unive.it</span>
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentazione</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentazione</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Comitati scientifici</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contatti - Iscrizioni - Proposte</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -250,16 +251,59 @@ philosophica@unive.it</span>
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca' Foscari Venezia
-Dipartimento di Filosofia e Beni Culturali
-Palazzo Malcanton Marcorà
-Dorsoduro 3484/D
-30123 Venezia
-philosophica@unive.it</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_10"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -272,10 +316,12 @@ philosophica@unive.it</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-63-2/"><img src="/covers/books/978-88-97735-63-2/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Tirannide e filosofia - -->27 Lug 2015
-                                <br/><a href="/it/edizioni/libri/978-88-97735-63-2/">Tirannide e filosofia</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-63-2/"><img src="/covers/books/978-88-97735-63-2/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Tirannide e filosofia - -->27 Lug 2015
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-63-2/">Tirannide e filosofia</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Che cosa fu il tiranno e che cos’è la tirannide? Come restituire problematicità speculativa a queste due nozioni usurate da indeterminatezza e discredito? I saggi della prima parte di questo volume indagano il senso della tirannide attraverso la ripresa di otto figure decisive: la coppia archetipica Giobbe-Edipo, il momento-Machiavelli, l’Illuminismo ...</p>
@@ -289,10 +335,12 @@ philosophica@unive.it</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-084-6/"><img src="/covers/books/978-88-6969-084-6/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Theodicy and Reason - -->30 Giu 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-084-6/">Theodicy and Reason</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-084-6/"><img src="/covers/books/978-88-6969-084-6/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Theodicy and Reason - -->30 Giu 2016
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-084-6/">Theodicy and Reason</a></small>
+                                </h3>
                                 <p class="authors">a cura di Matteo Favaretti Camposampiero, Mattia Geretto, Luigi Perissinotto</p>
                                 
                                     <p></p>

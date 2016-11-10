@@ -163,22 +163,26 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Eurasiatica
-                <br/><small>Quaderni di studio su Balcani, Caucaso e Asia Centrale</small>
+                <br/>
+                    <small>Quaderni di studio su Balcani, Caucaso e Asia Centrale</small>
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/eurasiatica/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/eurasiatica/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Tema</span><span class="book-meta-val"><a href="/it/edizioni/temi/lingue-e-culture-del-medio-ed-estremo-oriente/">Lingue e culture del Medio ed Estremo Oriente&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Tema</span><span
+                                class="book-meta-val"><a
+                                href="/it/edizioni/temi/lingue-e-culture-del-medio-ed-estremo-oriente/">Lingue e culture del Medio ed Estremo Oriente&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -195,9 +199,10 @@
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentazione</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentazione</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Comitati scientifici</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contatti - Iscrizioni - Proposte</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -264,11 +269,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Dipartimento di Studi sull’Asia e sull’Africa Mediterranea<br /> Università Ca’ Foscari Venezia<br /> Ca’ Cappello<br /> San Polo 2035<br /> 30125 Venezia</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_5"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -281,10 +334,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-55-7/"><img src="/covers/books/978-88-97735-55-7/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Al crocevia delle civiltà - -->30 Apr 2014
-                                <br/><a href="/it/edizioni/libri/978-88-97735-55-7/">Al crocevia delle civiltà</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-55-7/"><img src="/covers/books/978-88-97735-55-7/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Al crocevia delle civiltà - -->30 Apr 2014
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-55-7/">Al crocevia delle civiltà</a></small>
+                                </h3>
                                 <p class="authors">a cura di Aldo Ferrari, Daniele Guizzo</p>
                                 
                                     <p>Questo primo volume della serie Eurasiatica. Quaderni di studi su Balcani, Anatolia, Iran, Caucaso e Asia Centrale riunisce diversi articoli dedicati al Caucaso e all’Asia Centrale. Sono regioni ampiamente distinte tra loro, ma unite al tempo stesso da numerosi vincoli storici, culturali, politici ed economici. E anche strettamente collegate alle ...</p>
@@ -298,10 +353,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-027-3/"><img src="/covers/books/978-88-6969-027-3/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Dal Paleolitico al Genocidio Armeno - -->2 Mar 2015
-                                <br/><a href="/it/edizioni/libri/978-88-6969-027-3/">Dal Paleolitico al Genocidio Armeno</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-027-3/"><img src="/covers/books/978-88-6969-027-3/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Dal Paleolitico al Genocidio Armeno - -->2 Mar 2015
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-027-3/">Dal Paleolitico al Genocidio Armeno</a></small>
+                                </h3>
                                 <p class="authors">a cura di Aldo Ferrari, Erica Ianiro</p>
                                 
                                     <p>Il secondo volume della serie Eurasiatica riunisce alcuni saggi che rispecchiano le differenti linee di indagine attraverso le quali, studiosi tanto italiani quanto stranieri, si dedicano al Caucaso e all’Asia Centrale. I testi del volume hanno quindi contenuto archeologico, filologico, storico, linguistico e teologico, contribuendo in maniera significativa all’ampliamento delle ...</p>
@@ -315,10 +372,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-050-1/"><img src="/covers/books/978-88-6969-050-1/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Ca’ Foscari, Venezia e i Balcani - -->2 Nov 2015
-                                <br/><a href="/it/edizioni/libri/978-88-6969-050-1/">Ca’ Foscari, Venezia e i Balcani</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-050-1/"><img src="/covers/books/978-88-6969-050-1/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Ca’ Foscari, Venezia e i Balcani - -->2 Nov 2015
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-050-1/">Ca’ Foscari, Venezia e i Balcani</a></small>
+                                </h3>
                                 <p class="authors">a cura di Giampiero Bellingeri, Giuseppina Turano</p>
                                 
                                     <p>Questo volume della serie Eurasiatica raccoglie undici contributi presentati al II Convegno di Studi Balcanici Ca’ Foscari, Venezia e i Balcani tenutosi a Venezia nel 2013. Si spazia dalla storiografia all’archeologia, dal restauro dei monumenti all’arte, dall’economia alla letteratura, dalle pratiche ideologiche nazionalistiche a quelle culturali identitarie, sul comune denominatore ...</p>
@@ -332,10 +391,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-086-0/"><img src="/covers/books/978-88-6969-086-0/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--«A mari usque ad mare» - -->19 Lug 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-086-0/">«A mari usque ad mare»</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-086-0/"><img src="/covers/books/978-88-6969-086-0/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--«A mari usque ad mare» - -->19 Lug 2016
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-086-0/">«A mari usque ad mare»</a></small>
+                                </h3>
                                 <p class="authors">a cura di Mattia Guidetti, Sara Mondini</p>
                                 
                                     <p>Il volume offre un omaggio accademico al professor Gianclaudio Macchiarella ed è al contempo un luogo di raccolta degli amici e dei colleghi più stretti a ricordo di un Maestro e di un amico. A un anno dalla scomparsa, si vuole qui portare una testimonianza dello studioso nella sua poliedricità ...</p>
@@ -349,10 +410,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-101-0/"><img src="/covers/books/978-88-6969-101-0/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Borders - -->3 Ago 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-101-0/">Borders</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-101-0/"><img src="/covers/books/978-88-6969-101-0/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Borders - -->3 Ago 2016
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-101-0/">Borders</a></small>
+                                </h3>
                                 <p class="authors">a cura di Stefano Pellò</p>
                                 
                                     <p>This collection of essays stands as the first volume of the new Eurasiatica series entirely devoted to the vast territories of Iranian culture, understood in the widest sense possible and in an open chronological perspective. Explicitly refusing any fetishization of particularism, it contains fourteen studies organized in thematic pairs: a ...</p>
@@ -366,10 +429,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-078-5/"><img src="/covers/books/978-88-6969-078-5/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Armenia, Caucaso e Asia Centrale - -->31 Ott 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-078-5/">Armenia, Caucaso e Asia Centrale</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-078-5/"><img src="/covers/books/978-88-6969-078-5/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Armenia, Caucaso e Asia Centrale - -->31 Ott 2016
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-078-5/">Armenia, Caucaso e Asia Centrale</a></small>
+                                </h3>
                                 <p class="authors">a cura di Aldo Ferrari, Erica Ianiro</p>
                                 
                                     <p>Questo volume della serie <em>Eurasiatica </em>raccoglie articoli dedicati all’Armenia, al Caucaso e all’Asia Centrale nei quali si rispecchiano alcune delle linee di ricerca su tali aree portate avanti in questi ultimi anni da studiosi italiani di diversi ambiti scientifici. Nel volume sono pertanto presenti studi di carattere archeologico, filologico, letterario, ...</p>

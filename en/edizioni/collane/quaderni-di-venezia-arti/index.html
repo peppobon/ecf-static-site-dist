@@ -163,19 +163,19 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Quaderni di Venezia Arti
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/quaderni-di-venezia-arti/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/quaderni-di-venezia-arti/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
                     
@@ -193,9 +193,10 @@
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -271,11 +272,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca’ Foscari Venezia<br /> Dipartimento Filosofia e Beni culturali<br /> Dorsoduro 3484D<br /> 30124 Venezia</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_17"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -288,10 +337,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-73-1/"><img src="/covers/books/978-88-97735-73-1/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Quaderni di Venezia Arti 1 - -->7 Aug 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-73-1/">Quaderni di Venezia Arti 1</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-73-1/"><img src="/covers/books/978-88-97735-73-1/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Quaderni di Venezia Arti 1 - -->7 Aug 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-73-1/">Quaderni di Venezia Arti 1</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Questo volume contiene gli atti della giornata di studi dedicata a Il restauro come atto critico: Venezia e il suo territorio, organizzata a Ca’ Dolfin il 27 marzo 2012 come momento di collaborazione e confronto tra Università e Soprintendenze. La consapevolezza che il restauro sia sempre un atto critico dovrebbe ...</p>

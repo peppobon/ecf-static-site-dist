@@ -163,22 +163,26 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Innesti/Crossroads
-                <br/><small>Cinema, letteratura e altri linguaggi | Film, literature and other languages</small>
+                <br/>
+                    <small>Cinema, letteratura e altri linguaggi | Film, literature and other languages</small>
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/innesticrossroads/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/innesticrossroads/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Topic</span><span class="book-meta-val"><a href="/en/edizioni/temi/letterature/">Literature&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Topic</span><span
+                                class="book-meta-val"><a
+                                href="/en/edizioni/temi/letterature/">Literature&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -198,9 +202,10 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</span>
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -364,14 +369,59 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</span>
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca’ Foscari Venezia
-Dipartimento di Filosofia e Beni Culturali
-Palazzo Malcanton Marcorà
-Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_3"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -384,10 +434,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-29-8/"><img src="/covers/books/978-88-97735-29-8/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Il lettore in gioco - -->1 May 2013
-                                <br/><a href="/en/edizioni/libri/978-88-97735-29-8/">Il lettore in gioco</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-29-8/"><img src="/covers/books/978-88-97735-29-8/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Il lettore in gioco - -->1 May 2013
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-29-8/">Il lettore in gioco</a></small>
+                                </h3>
                                 <p class="authors">edited by Martina Bortignon, Katiuscia Darici, Stefania Imperiale</p>
                                 
                                     <p>Attraverso una ricca selezione di contributi, il volume esplora vari aspetti del mondo della lettura: dalle questioni teoriche, sociologiche ed estetiche a casi paradigmatici di come il lettore si relaziona con il testo, con particolare attenzione per i nuovi supporti digitali. Molti sono gli autori trattati nei saggi: da Iser ...</p>
@@ -401,10 +453,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-33-5/"><img src="/covers/books/978-88-97735-33-5/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Romanzo criminale - -->16 Jul 2016
-                                <br/><a href="/en/edizioni/libri/978-88-97735-33-5/">Romanzo criminale</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-33-5/"><img src="/covers/books/978-88-97735-33-5/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Romanzo criminale - -->16 Jul 2016
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-33-5/">Romanzo criminale</a></small>
+                                </h3>
                                 <p class="authors">Marta Boni</p>
                                 
                                     <p>Ispirato a eventi realmente accaduti, Romanzo criminale racconta la storia di un piccolo gruppo malavitoso della periferia romana degli anni di piombo e si sviluppa in una narrazione complessa, distribuita su media diversi: il romanzo di Giancarlo De Cataldo (2002), il film di Michele Placido (2005), la serie televisiva prodotta ...</p>
@@ -418,10 +472,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-59-5/"><img src="/covers/books/978-88-97735-59-5/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Cartoline d&#39;Africa - -->22 May 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-59-5/">Cartoline d'Africa</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-59-5/"><img src="/covers/books/978-88-97735-59-5/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Cartoline d&#39;Africa - -->22 May 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-59-5/">Cartoline d'Africa</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Il volume analizza la rappresentazione che alcuni romanzi contemporanei offrono delle ex colonie italiane d’Africa con l’obiettivo di individuare se e quali dispositivi narrativi esotizzanti siano latenti tra le righe e l’esito in termini imagologici che essi possono produrre. A proposito di questioni coloniali, l’immaginario italiano appare ancora oggi viziato ...</p>
@@ -435,10 +491,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-84-7/"><img src="/covers/books/978-88-97735-84-7/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Il melodramma tra centro e periferia - -->18 Dec 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-84-7/">Il melodramma tra centro e periferia</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-84-7/"><img src="/covers/books/978-88-97735-84-7/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Il melodramma tra centro e periferia - -->18 Dec 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-84-7/">Il melodramma tra centro e periferia</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Giovani di belle speranze; mogli annoiate di ufficiali sanitari e di burocrati; cantanti grottesche e disperate; borghesi in vena di esibizionismo culturale: i personaggi di queste pagine sono accomunati dal fatto di essere nati e vissuti in realtà retrive e marginali. I ‘periferici’, grazie all’opera, entrano temporaneamente in contatto con ...</p>
@@ -452,10 +510,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-013-6/"><img src="/covers/books/978-88-6969-013-6/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Testimoni di guerra - -->4 May 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-013-6/">Testimoni di guerra</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-013-6/"><img src="/covers/books/978-88-6969-013-6/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Testimoni di guerra - -->4 May 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-013-6/">Testimoni di guerra</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>I film analizzati in queste pagine mostrano come le potenzialità testimoniali delle immagini di guerra possano attivarsi grazie al montaggio di elementi eterogenei dal punto di vista mediale. Dalle immagini che documentano la guerra sul campo di battaglia, al dialogo tra disegni animati e reportage televisivi; dalle fotografie digitali diffuse ...</p>
@@ -469,10 +529,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-019-8/"><img src="/covers/books/978-88-6969-019-8/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Lezioni di caos - -->8 May 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-019-8/">Lezioni di caos</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-019-8/"><img src="/covers/books/978-88-6969-019-8/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Lezioni di caos - -->8 May 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-019-8/">Lezioni di caos</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Nel 1985, affidando alle pagine delle Lezioni americane il suo 'testamento spirituale', Italo Calvino indicava nella leggerezza il tratto più caratteristico della propria avventura di scrittore. Partiva così un affascinante viaggio in cerca di esempi emblematici di levita, che da Ovidio e Lucrezio portava a Montale e Kundera passando per ...</p>
@@ -486,10 +548,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-064-8/"><img src="/covers/books/978-88-6969-064-8/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--La letteratura italiana e il concetto di maternità - -->12 Dec 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-064-8/">La letteratura italiana e il concetto di maternità</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-064-8/"><img src="/covers/books/978-88-6969-064-8/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--La letteratura italiana e il concetto di maternità - -->12 Dec 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-064-8/">La letteratura italiana e il concetto di maternità</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Una raccolta di saggi scritti da ricercatori di diversi paesi sul ruolo della madre nella letteratura italiana. Un viaggio che tocca diversi periodi della storia italiana, grazie agli autori italiani che hanno affrontato in diverse maniere il tema della maternità. I saggi mettono in luce quindi il ruolo della maternità ...</p>
@@ -503,10 +567,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-044-0/"><img src="/covers/books/978-88-6969-044-0/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Televisionismo - -->1 Nov 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-044-0/">Televisionismo</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-044-0/"><img src="/covers/books/978-88-6969-044-0/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Televisionismo - -->1 Nov 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-044-0/">Televisionismo</a></small>
+                                </h3>
                                 <p class="authors">edited by Monica Jansen, Maria Bonaria Urban</p>
                                 
                                     <p></p>
@@ -520,10 +586,12 @@ Dorsoduro 3484/D, 30123 Venezia, ITALIA</div>-->
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-045-7/"><img src="/covers/books/978-88-6969-045-7/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Le fonti in Elsa Morante - -->19 Nov 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-045-7/">Le fonti in Elsa Morante</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-045-7/"><img src="/covers/books/978-88-6969-045-7/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Le fonti in Elsa Morante - -->19 Nov 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-045-7/">Le fonti in Elsa Morante</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Autodidatta e spesso ostile alle indagini critiche sul suo lavoro, Elsa Morante ha nascosto al suo lettore gran parte del ricchissimo universo letterario della sua formazione e della sua vita adulta. Un fitto tessuto di riferimenti e influenze ha iniziato ad aprirsi sia per la ricchissima cura che i manoscritti ...</p>

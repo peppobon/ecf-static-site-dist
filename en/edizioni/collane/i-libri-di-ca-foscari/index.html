@@ -163,19 +163,19 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>I libri di Ca’ Foscari
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/i-libri-di-ca-foscari/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/i-libri-di-ca-foscari/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
                     
@@ -188,9 +188,10 @@
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -204,11 +205,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti"></div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_19"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -221,10 +270,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-00-7/"><img src="/covers/books/978-88-97735-00-7/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Leggere l’unità d’Italia - -->30 Nov 2011
-                                <br/><a href="/en/edizioni/libri/978-88-97735-00-7/">Leggere l’unità d’Italia</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-00-7/"><img src="/covers/books/978-88-97735-00-7/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Leggere l’unità d’Italia - -->30 Nov 2011
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-00-7/">Leggere l’unità d’Italia</a></small>
+                                </h3>
                                 <p class="authors">edited by Alessandro Casellato, Simon Levis Sullam</p>
                                 
                                     <p>È possibile individuare un’opera letteraria o scientifica che riassuma per ciascuno di noi il senso della storia d’Italia negli ultimi 150 anni? Che esprima i fattori caratterizzanti dell’appartenenza nazionale italiana? Si tratterà di un romanzo, di una poesia, di un racconto, di un saggio, di un libro di storia? Non ...</p>
@@ -238,10 +289,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-78-6/"><img src="/covers/books/978-88-97735-78-6/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Ca’ Dolfin e i Cadolfiniani - -->23 Sep 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-78-6/">Ca’ Dolfin e i Cadolfiniani</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-78-6/"><img src="/covers/books/978-88-97735-78-6/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Ca’ Dolfin e i Cadolfiniani - -->23 Sep 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-78-6/">Ca’ Dolfin e i Cadolfiniani</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>￼Il presente volume indaga una vicenda per molti aspetti rilevante nella storia dell’Università Ca’ Foscari Venezia. L’antica dimora della famiglia Dolfin con il suo splendido Salone Maggiore, un tempo ornato da dieci teleri del Tiepolo, venne infatti acquistata dall’Ateneo già nel 1955. L’obiettivo era farne la sede dell’Aula Magna, nonché ...</p>
@@ -255,10 +308,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-039-6/"><img src="/covers/books/978-88-6969-039-6/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--30+ anni di aziendalisti in Laguna - -->5 Nov 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-039-6/">30+ anni di aziendalisti in Laguna</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-039-6/"><img src="/covers/books/978-88-6969-039-6/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--30+ anni di aziendalisti in Laguna - -->5 Nov 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-039-6/">30+ anni di aziendalisti in Laguna</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>La ricorrenza del trentennale di ALEA, la storica associazione dei laureati in Economia aziendale di Ca’ Foscari, apre a una riflessione corale sullo sviluppo degli studi manageriali a Venezia. Primo in Italia assieme alla Bocconi, il corso di laurea in Economia aziendale dell’Ateneo veneziano ha formato generazioni di manager, imprenditori ...</p>

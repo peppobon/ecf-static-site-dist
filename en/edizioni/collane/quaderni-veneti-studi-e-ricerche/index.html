@@ -163,22 +163,25 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Quaderni Veneti. Studi e ricerche
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/quaderni-veneti-studi-e-ricerche/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/quaderni-veneti-studi-e-ricerche/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Topic</span><span class="book-meta-val"><a href="/en/edizioni/temi/letterature/">Literature&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Topic</span><span
+                                class="book-meta-val"><a
+                                href="/en/edizioni/temi/letterature/">Literature&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -190,9 +193,10 @@
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -339,11 +343,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti"></div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_8"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -356,10 +408,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-70-0/"><img src="/covers/books/978-88-97735-70-0/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--«Una raffinata ragnatela» - -->6 Oct 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-70-0/">«Una raffinata ragnatela»</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-70-0/"><img src="/covers/books/978-88-97735-70-0/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--«Una raffinata ragnatela» - -->6 Oct 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-70-0/">«Una raffinata ragnatela»</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Il volume, curato da Veronica Gobbato e Silvia Uroda, raccoglie gli atti della giornata di studio (5 dicembre 2012, presso il Palazzo Franchetti dell'Istituto Veneto di Scienze, Lettere ed Arti) organizzata dal Centro Interuniversitario di Studi veneti per celebrare la creazione del Fondo Carlo Della Corte presso l'Archivio CISVe-«Carte del ...</p>
@@ -373,10 +427,12 @@
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-069-3/"><img src="/covers/books/978-88-6969-069-3/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Camminando per le foreste di Nane Oca - -->1 Apr 2016
-                                <br/><a href="/en/edizioni/libri/978-88-6969-069-3/">Camminando per le foreste di Nane Oca</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-069-3/"><img src="/covers/books/978-88-6969-069-3/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Camminando per le foreste di Nane Oca - -->1 Apr 2016
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-069-3/">Camminando per le foreste di Nane Oca</a></small>
+                                </h3>
                                 <p class="authors">edited by Laura Vallortigara</p>
                                 
                                     <p>Il presente volume raccoglie gli Atti della Giornata di Studio dedicata all’«ocaromanzo» di Giuliano Scabia, cioè alla trilogia (Nane Oca, 1992; Le foreste sorelle. Nuove straordinarie avventure di Nane Oca, 2005; Nane Oca rivelato, 2009) che narra le avventure di Giovanni detto Nane Oca, tenutasi a Venezia, nella splendida cornice ...</p>

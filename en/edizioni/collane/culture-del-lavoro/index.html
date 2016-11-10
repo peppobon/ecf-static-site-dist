@@ -163,22 +163,25 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Culture del lavoro
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/culture-del-lavoro/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/culture-del-lavoro/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Topic</span><span class="book-meta-val"><a href="/en/edizioni/temi/scienze-sociali/">Sociology&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Topic</span><span
+                                class="book-meta-val"><a
+                                href="/en/edizioni/temi/scienze-sociali/">Sociology&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -198,9 +201,10 @@ Dorsoduro 3484/D
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -278,14 +282,59 @@ Dorsoduro 3484/D
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca’ Foscari
-Dipartimento di Studi Umanistici
-Dorsoduro 3484/D
-30123 Venezia </div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_24"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -298,10 +347,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-42-7/"><img src="/covers/books/978-88-97735-42-7/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Tra luoghi e mestieri - -->1 Oct 2013
-                                <br/><a href="/en/edizioni/libri/978-88-97735-42-7/">Tra luoghi e mestieri</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-42-7/"><img src="/covers/books/978-88-97735-42-7/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Tra luoghi e mestieri - -->1 Oct 2013
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-42-7/">Tra luoghi e mestieri</a></small>
+                                </h3>
                                 <p class="authors">edited by Gilda Zazzara</p>
                                 
                                     <p>Lavoratrici precarie dell’industria bolognese, rammendatrici vicentine tra fabbrica e lavoro a domicilio, proletari ‘centomestieri’ delle borgate romane, muratori di Livorno, generazioni di pescatori di Torre del Greco. Sono i protagonisti di cinque saggi di storia del lavoro che affrontano il rapporto tra culture di mestiere, autorappresentazioni individuali e collettive, e ...</p>
@@ -315,10 +366,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-010-5/"><img src="/covers/books/978-88-6969-010-5/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Corpi al lavoro - -->4 May 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-010-5/">Corpi al lavoro</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-010-5/"><img src="/covers/books/978-88-6969-010-5/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Corpi al lavoro - -->4 May 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-010-5/">Corpi al lavoro</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Il volume raccoglie gli interventi presentati a un seminario di studio sui <i>Corpi al lavoro</i>. I saggi indagano come la corporeità con i suoi attributi – genere ed etnia in primo luogo – sia costitutiva delle relazioni di lavoro, della costruzione dell’ideologia del mestiere e della professionalità, delle categorie di ...</p>
@@ -332,10 +385,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-075-4/"><img src="/covers/books/978-88-6969-075-4/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Lavorare per la rivoluzione - -->1 Apr 2016
-                                <br/><a href="/en/edizioni/libri/978-88-6969-075-4/">Lavorare per la rivoluzione</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-075-4/"><img src="/covers/books/978-88-6969-075-4/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Lavorare per la rivoluzione - -->1 Apr 2016
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-075-4/">Lavorare per la rivoluzione</a></small>
+                                </h3>
                                 <p class="authors">edited by Silvia Calamandrei, Gilda ZazzaraFabio Matteini</p>
                                 
                                     <p>The volume collects the biographical testimony of Fabio Matteini who, starting from the ’60s, undertook an import activity of Chinese handcra products with the aim of supporting the political and cultural initiative of the Edizioni Oriente of Milan, the main center for the spread of Maoism in Italy. The testimony ...</p>

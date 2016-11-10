@@ -163,19 +163,20 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>SAIL
-                <br/><small>Studi sull’apprendimento e l’insegnamento linguistico</small>
+                <br/>
+                    <small>Studi sull’apprendimento e l’insegnamento linguistico</small>
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/sail/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/sail/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
                     
@@ -199,9 +200,10 @@ Dorsoduro 1075
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentazione</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentazione</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Comitati scientifici</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contatti - Iscrizioni - Proposte</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -351,17 +353,59 @@ Dorsoduro 1075
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca’ Foscari Venezia
-<a href="http://www.unive.it/nqcontent.cfm?a_id=175490" target="_top">CRDL</a>
-<a href="http://www.unive.it/nqcontent.cfm?a_id=175490" target="_top">Centro di Ricerca sulla Didattica sulle Lingue</a>
-Dipartimento di Studi Linguistici e Culturali Comparati<br />Ca’ Bembo
-Dorsoduro 1075
-30123 Venezia
- </div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_16"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -374,10 +418,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-18-2/"><img src="/covers/books/978-88-97735-18-2/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Aimes-tu le français? - -->1 Nov 2012
-                                <br/><a href="/it/edizioni/libri/978-88-97735-18-2/">Aimes-tu le français?</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-18-2/"><img src="/covers/books/978-88-97735-18-2/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Aimes-tu le français? - -->1 Nov 2012
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-18-2/">Aimes-tu le français?</a></small>
+                                </h3>
                                 <p class="authors">Fabio Caon</p>
                                 
                                     <p></p>
@@ -391,10 +437,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-19-9/"><img src="/covers/books/978-88-97735-19-9/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Cosa ti hanno insegnato al liceo? - -->1 Dic 2012
-                                <br/><a href="/it/edizioni/libri/978-88-97735-19-9/">Cosa ti hanno insegnato al liceo?</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-19-9/"><img src="/covers/books/978-88-97735-19-9/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Cosa ti hanno insegnato al liceo? - -->1 Dic 2012
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-19-9/">Cosa ti hanno insegnato al liceo?</a></small>
+                                </h3>
                                 <p class="authors">Graziano Serragiotto</p>
                                 
                                     <p></p>
@@ -408,10 +456,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-20-5/"><img src="/covers/books/978-88-97735-20-5/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--La formazione linguistica nell’università - -->1 Dic 2012
-                                <br/><a href="/it/edizioni/libri/978-88-97735-20-5/">La formazione linguistica nell’università</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-20-5/"><img src="/covers/books/978-88-97735-20-5/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--La formazione linguistica nell’università - -->1 Dic 2012
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-20-5/">La formazione linguistica nell’università</a></small>
+                                </h3>
                                 <p class="authors">a cura di Paolo Balboni, Michele DaloisoPaolo Balboni, Michele Daloiso</p>
                                 
                                     <p></p>
@@ -425,10 +475,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-97735-90-8/"><img src="/covers/books/978-88-97735-90-8/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--La valutazione delle lingue straniere e seconde nella scuola - -->2 Set 2014
-                                <br/><a href="/it/edizioni/libri/978-88-97735-90-8/">La valutazione delle lingue straniere e seconde nella scuola</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-97735-90-8/"><img src="/covers/books/978-88-97735-90-8/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--La valutazione delle lingue straniere e seconde nella scuola - -->2 Set 2014
+                                        <br/><a href="/it/edizioni/libri/978-88-97735-90-8/">La valutazione delle lingue straniere e seconde nella scuola</a></small>
+                                </h3>
                                 <p class="authors"></p>
                                 
                                     <p>Caratteristiche, metodologie e motivi della valutazione dell'insegnamento delle lingue straniere a scuola.</p>
@@ -442,10 +494,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-020-4/"><img src="/covers/books/978-88-6969-020-4/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Acquisizione della Lingua Italiana e adozione internazionale - -->1 Mag 2015
-                                <br/><a href="/it/edizioni/libri/978-88-6969-020-4/">Acquisizione della Lingua Italiana e adozione internazionale</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-020-4/"><img src="/covers/books/978-88-6969-020-4/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Acquisizione della Lingua Italiana e adozione internazionale - -->1 Mag 2015
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-020-4/">Acquisizione della Lingua Italiana e adozione internazionale</a></small>
+                                </h3>
                                 <p class="authors">Egidio Freddi</p>
                                 
                                     <p>L'acquisizione di una lingua avviene nel momento in cui essa viene assimilata in modo completo e stabile in una situazione naturale, spontanea e gratificante. Solitamente, questo quadro è compatibile con la lingua materna biologica. Esiste però anche una condizione estremamente particolare, e per alcuni aspetti unica: il caso dei bambini ...</p>
@@ -459,10 +513,12 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-008-2/"><img src="/covers/books/978-88-6969-008-2/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--CLIL in Higher Education and the Role of Corpora - -->15 Mag 2015
-                                <br/><a href="/it/edizioni/libri/978-88-6969-008-2/">CLIL in Higher Education and the Role of Corpora</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-008-2/"><img src="/covers/books/978-88-6969-008-2/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--CLIL in Higher Education and the Role of Corpora - -->15 Mag 2015
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-008-2/">CLIL in Higher Education and the Role of Corpora</a></small>
+                                </h3>
                                 <p class="authors">Giovanna Carloni</p>
                                 
                                     <p>Il volume illustra la struttura di un centro di servizi didattici CLIL (Content and Language Integrated Learning) rivolto a docenti universitari che fornisce consulenza metodologica e linguistica erogata da esperti del settore. L’analisi dell’uso dei corpora per la creazione di materiali didattici CLIL, relativi ai vari insegnamenti, è realizzata all’interno ...</p>
@@ -476,30 +532,15 @@ Dorsoduro 1075
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-073-0/"><img src="/covers/books/978-88-6969-073-0/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Le lingue in Italia, le lingue in Europa: dove siamo, dove andiamo - -->1 Mar 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-073-0/">Le lingue in Italia, le lingue in Europa: dove siamo, dove andiamo</a></small>
-                            </h3>
+                                <a href="/it/edizioni/libri/978-88-6969-073-0/"><img src="/covers/books/978-88-6969-073-0/cover.png"
+                                                                        alt="copertina libro"/></a>
+                                <h3>
+                                    <small><!--Le lingue in Italia, le lingue in Europa: dove siamo, dove andiamo - -->1 Mar 2016
+                                        <br/><a href="/it/edizioni/libri/978-88-6969-073-0/">Le lingue in Italia, le lingue in Europa: dove siamo, dove andiamo</a></small>
+                                </h3>
                                 <p class="authors">a cura di Carlos Alberto Melero Rodríguez</p>
                                 
                                     <p></p>
-                                
-
-                            </div>
-
-                        </div>
-                    </div>
-                
-                    <div class="column">
-                        <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
-                            <div class="ecf-caption">
-                                <a href="/it/edizioni/libri/978-88-6969-121-9/"><img src="/covers/books/978-88-6969-121-9/cover.png" alt="copertina libro" /></a>
-                                <h3><small><!--Tra lingue e culture: la comunicazione interculturale tra italiani e popoli slavi meridionali - -->4 Nov 2016
-                                <br/><a href="/it/edizioni/libri/978-88-6969-121-9/">Tra lingue e culture: la comunicazione interculturale tra italiani e popoli slavi meridionali</a></small>
-                            </h3>
-                                <p class="authors">Salvatore Cavaliere</p>
-                                
-                                    <p>The aim of this work is to illustrate the main intercultural communicative problems which could arise in the interactions between Italians on the one side and Bosnians, Croatians, Montenegrins and Serbs (who will also be referred to as South Slavs or Slavs from the South) on the other. The general ...</p>
                                 
 
                             </div>

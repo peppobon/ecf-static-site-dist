@@ -163,22 +163,25 @@
 
 
 
-     <div class="row">
+    <div class="row">
         <div class="small-12 medium-5 large-4 columns">
             <h1>Antichistica
                 
             </h1>
         </div>
 
-     </div>
+    </div>
 
     <div class="row">
         <div class="small-12 medium-5 large-3 columns">
             <div>
-                <img class="thumbnail" src="/covers/series/antichistica/cover.png" alt="copertina" />
+                <img class="thumbnail" src="/covers/series/antichistica/cover.png" alt="copertina"/>
                 <ul class="no-bullet ecf-catalog-metadata">
                     
-                        <li><span class="label secondary book-meta">Topic</span><span class="book-meta-val"><a href="/en/edizioni/temi/scienze-dellantichita/">Antiquity Studies&#160;<i class="fa fa-arrow-circle-right"></i></a></span></li>
+                        <li><span class="label secondary book-meta">Topic</span><span
+                                class="book-meta-val"><a
+                                href="/en/edizioni/temi/scienze-dellantichita/">Antiquity Studies&#160;<i
+                                class="fa fa-arrow-circle-right"></i></a></span></li>
                     
                     
                     
@@ -199,9 +202,10 @@ Dorsoduro 3484/D
         <div class="small-12 medium-7 large-9 columns">
 
             <ul class="ecf-catalog-blurbs tabs" data-tabs id="tabs">
-                <li class="tabs-title is-active"><a href="#panel-presentazione" aria-selected="true">Presentation</a></li>
+                <li class="tabs-title is-active"><a href="#panel-presentazione"
+                                                    aria-selected="true">Presentation</a></li>
                 <li class="tabs-title"><a href="#panel-comitati">Scientific board</a></li>
-                <!--<li class="tabs-title"><a href="#panel-contatti">Contac us</a></li>-->
+                <!--<li class="tabs-title"><a href="#panel-proposte">Contatti | Iscrizioni | Proposte</a></li>-->
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">
@@ -247,15 +251,59 @@ Dorsoduro 3484/D
                         </ul>
                     </nav>
                 </div>
-                <!--<div class="tabs-panel ecf-preformatted" id="panel-contatti">Università Ca’ Foscari Venezia
-Dipartimento di Studi Umanistici
-Dorsoduro 3484/D
-30123 Venezia 
- </div>-->
+                <div class="tabs-panel" id="panel-proposte">
+                    <form action="http://ecfpeerflow.unive.it/script/form_pubblica_con_noi" method="post"
+                          id="pubblica_con_noi">
+
+                        <p>Alla direzione scientifica / To the General Editor</p>
+                        <label>Nome / Name
+                            <input type="text" name="nome_utente"/>
+                        </label>
+                        <label>Cognome / Surname
+                            <input type="text" name="cognome_utente"/>
+                        </label>
+                        <label><b>Affiliazione / Affiliation</b>
+                            <input type="text" name="affiliazione"/>
+                        </label>
+                        <label><b>Email</b>
+                            <input type="text" name="email"/>
+                        </label>
+
+
+                        <label><b>1. Invia un messaggio / Send a message</b>
+                            <textarea name="textarea_messaggio_utente"></textarea>
+                        </label>
+
+
+                        <label><b>2. Richiesta di iscrizione in qualità di / registration request as</b><br/>
+                            <input type="checkbox" name="registration_as" value="autore" checked>Autore / Author&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="lettore">Lettore / Reader&#160;&#160;&#160;
+                            <input type="checkbox" name="registration_as" value="revisore">Revisore / Reviewer&#160;&#160;&#160;
+                        </label>
+
+                        <p><b>3. Proposta di pubblicazione / Proposal submission</b></p>
+
+                        <label>Titolo / Title
+                                <input type="text" name="proposta_titolo"/>
+                        </label>
+                        <label>Abstract
+                            <textarea name="textarea_abstract"></textarea>
+                        </label>
+
+                        <label>Allegato / Attachment
+                            <input type="file" name="file_attach">
+                        </label>
+
+                        <input type="hidden" name="mysql_id_collana" value="_series_13"/>
+                        <input type="hidden" name="mysql_id_rivista" value=""/>
+
+                        <input type="submit" value="Invia" class="button"/>
+
+                    </form>
+                </div>
             </div>
 
         </div>
-
 
 
     </div>
@@ -268,10 +316,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-08-3/"><img src="/covers/books/978-88-97735-08-3/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Microstorie di romanizzazione - -->30 Mar 2013
-                                <br/><a href="/en/edizioni/libri/978-88-97735-08-3/">Microstorie di romanizzazione</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-08-3/"><img src="/covers/books/978-88-97735-08-3/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Microstorie di romanizzazione - -->30 Mar 2013
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-08-3/">Microstorie di romanizzazione</a></small>
+                                </h3>
                                 <p class="authors">edited by Giovannella Cresci Marrone, Patrizia Solinas</p>
                                 
                                     <p>This volume contains the edition and commentary of sixty funerary inscriptions found at the archaeological site of Cerrione in the province of Biella, in north-eastern Piedmont, near the Bessa ancient gold district, in the territory once belonging to the Roman colony of Eporedia. Seven inscriptions were written in the so-called ...</p>
@@ -285,10 +335,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-75433-51-2/"><img src="/covers/books/978-88-75433-51-2/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Aspetti del sistema preposizionale dell’eblaita - -->1 Apr 2013
-                                <br/><a href="/en/edizioni/libri/978-88-75433-51-2/">Aspetti del sistema preposizionale dell’eblaita</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-75433-51-2/"><img src="/covers/books/978-88-75433-51-2/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Aspetti del sistema preposizionale dell’eblaita - -->1 Apr 2013
+                                        <br/><a href="/en/edizioni/libri/978-88-75433-51-2/">Aspetti del sistema preposizionale dell’eblaita</a></small>
+                                </h3>
                                 <p class="authors">Maria Vittoria Tonietti</p>
                                 
                                     <p>La possibilità di penetrare il significato di un testo dipende ampiamente da una corretta comprensione del valore semantico delle preposizioni impiegate. L’analisi sincronica e diacronica dei contesti relativi – svolta considerando anche la diversa ‘prospettiva’ che lingue diverse possono assumere nel descrivere determinate azioni – ha permesso qui di ricostruire ...</p>
@@ -302,10 +354,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-50-2/"><img src="/covers/books/978-88-97735-50-2/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Festòs protopalaziale - -->1 Oct 2013
-                                <br/><a href="/en/edizioni/libri/978-88-97735-50-2/">Festòs protopalaziale</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-50-2/"><img src="/covers/books/978-88-97735-50-2/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Festòs protopalaziale - -->1 Oct 2013
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-50-2/">Festòs protopalaziale</a></small>
+                                </h3>
                                 <p class="authors">Ilaria Caloi</p>
                                 
                                     <p>This work, based on my 2007 ma dissertation for the Italian Archaeological School at Athens focuses on two Protopalatial houses of Phaistos (Crete), excavated by the Italian Archaeological Mission. These are located in an area known as the ‘Quarter West of the West Court’ (Piazzale i) of the Phaistos palace, ...</p>
@@ -319,10 +373,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-85-4/"><img src="/covers/books/978-88-97735-85-4/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Poteri e legittimità nel mondo antico - -->25 Nov 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-85-4/">Poteri e legittimità nel mondo antico</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-85-4/"><img src="/covers/books/978-88-97735-85-4/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Poteri e legittimità nel mondo antico - -->25 Nov 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-85-4/">Poteri e legittimità nel mondo antico</a></small>
+                                </h3>
                                 <p class="authors">edited by Stefania De Vido</p>
                                 
                                     <p>La storia della politica nel mondo antico ha costituito uno degli interessi centrali di Pierre Carlier, scomparso nel 2011. Allo studioso che ha fortemente voluto e coltivato i rapporti scientifici e didattici tra le Università di Venezia e Nanterre è dedicato l’omaggio di questo libro, in cui la traccia del ...</p>
@@ -336,10 +392,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-87-8/"><img src="/covers/books/978-88-97735-87-8/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Storia e storie della lingua greca - -->10 Dec 2014
-                                <br/><a href="/en/edizioni/libri/978-88-97735-87-8/">Storia e storie della lingua greca</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-87-8/"><img src="/covers/books/978-88-97735-87-8/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Storia e storie della lingua greca - -->10 Dec 2014
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-87-8/">Storia e storie della lingua greca</a></small>
+                                </h3>
                                 <p class="authors">edited by Caterina Carpinato</p>
                                 
                                     <p>Questo volume si occupa di storia della lingua greca, partendo dal presupposto che essa vada studiata in una prospettiva autenticamente diacronica, senza cesure temporali e disciplinari. Per valorizzare la dimensione linguistica della continuità tra Grecia antica e Grecia contemporanea, il volume riunisce contributi di studiosi che hanno fatto dell’approccio diacronico ...</p>
@@ -353,10 +411,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-97735-97-7/"><img src="/covers/books/978-88-97735-97-7/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Antichità egizie e Italia - -->13 Jan 2015
-                                <br/><a href="/en/edizioni/libri/978-88-97735-97-7/">Antichità egizie e Italia</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-97735-97-7/"><img src="/covers/books/978-88-97735-97-7/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Antichità egizie e Italia - -->13 Jan 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-97735-97-7/">Antichità egizie e Italia</a></small>
+                                </h3>
                                 <p class="authors">edited by Emanuele Marcello Ciampini, Paola Zanovello</p>
                                 
                                     <p>Il volume raccoglie i contributi presentati nel corso di un convegno sul tema delle antichità egizie e, più in generale, su ricerche condotte in Italia su temi legati alla cultura faraonica. L’incontro di competenze diverse ha saputo mettere in luce la molteplicità e, nello stesso tempo, l’interazione di discipline spesso ...</p>
@@ -370,10 +430,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-015-0/"><img src="/covers/books/978-88-6969-015-0/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--La lupa sul Nilo - -->20 Feb 2015
-                                <br/><a href="/en/edizioni/libri/978-88-6969-015-0/">La lupa sul Nilo</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-015-0/"><img src="/covers/books/978-88-6969-015-0/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--La lupa sul Nilo - -->20 Feb 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-015-0/">La lupa sul Nilo</a></small>
+                                </h3>
                                 <p class="authors">edited by Emanuele Marcello Ciampini, Francesca Rohr VioMaurizio Viano</p>
                                 
                                     <p>La vicenda di Gaio Cornelio Gallo matura sullo sfondo della profonda trasformazione che caratterizzò il I secolo a.C. Intellettuale di primo piano, espressione delle élite occidentali di recente integrate, politico e militare di successo, per primo posto a capo dell’Egitto come prefetto e infine oggetto di un pubblico perseguimento che ...</p>
@@ -387,10 +449,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-7543-401-4/"><img src="/covers/books/978-88-7543-401-4/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--Commensality and Ceremonial Meals in the Neo-Assyrian Period - -->30 Dec 2015
-                                <br/><a href="/en/edizioni/libri/978-88-7543-401-4/">Commensality and Ceremonial Meals in the Neo-Assyrian Period</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-7543-401-4/"><img src="/covers/books/978-88-7543-401-4/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--Commensality and Ceremonial Meals in the Neo-Assyrian Period - -->30 Dec 2015
+                                        <br/><a href="/en/edizioni/libri/978-88-7543-401-4/">Commensality and Ceremonial Meals in the Neo-Assyrian Period</a></small>
+                                </h3>
                                 <p class="authors">Stefania Ermidoro</p>
                                 
                                     <p>Like a language, food is a witness to the tradition and to the identity of a human group, reflecting self-representation and social interaction. Assyrians developed a particular consciousness of commensality as a vehicle for cultural messages. This book investigates institutional banquets and ritualized meals in the Neo-Assyrian period. Through a ...</p>
@@ -404,10 +468,12 @@ Dorsoduro 3484/D
                     <div class="column">
                         <div class="thumbnail ecf-catalog-item" data-equalizer-watch>
                             <div class="ecf-caption">
-                                <a href="/en/edizioni/libri/978-88-6969-077-8/"><img src="/covers/books/978-88-6969-077-8/cover.png" alt="Book cover" /></a>
-                                <h3><small><!--The Reception of Sumerian Literature in the Western Periphery - -->8 Jul 2016
-                                <br/><a href="/en/edizioni/libri/978-88-6969-077-8/">The Reception of Sumerian Literature in the Western Periphery</a></small>
-                            </h3>
+                                <a href="/en/edizioni/libri/978-88-6969-077-8/"><img src="/covers/books/978-88-6969-077-8/cover.png"
+                                                                        alt="Book cover"/></a>
+                                <h3>
+                                    <small><!--The Reception of Sumerian Literature in the Western Periphery - -->8 Jul 2016
+                                        <br/><a href="/en/edizioni/libri/978-88-6969-077-8/">The Reception of Sumerian Literature in the Western Periphery</a></small>
+                                </h3>
                                 <p class="authors">Maurizio Viano</p>
                                 
                                     <p>With written sources dated to the end of the fourth millennium B.C., Sumerian is the most ancient language so far documented and remained the language of education in scribal circles for over three millennia. In the Late Bronze Age the dissemination of Sumerian literature, which is best known from Old ...</p>

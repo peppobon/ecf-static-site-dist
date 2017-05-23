@@ -1,0 +1,105 @@
+/* Home page*/
+body.home-page {}
+    body.home-page .banner {padding-top:2em;background-color: #333333;}
+    body.home-page img.logo {max-width: 300px; padding-right: 5em;}
+    div.claim {padding: 5em; background-color: #333333; color: #ffffff;}
+    div.claim a {color: #ffffff;}
+    div.claim p {font-size: 1.3rem;}
+    body.home-page .ecf-footer {padding-top:15px;}
+
+
+nav.top-bar {height: 100px; line-height: 100px;}
+    li.top-bar-logo{padding: 10px; height: 75%;}
+        img.top-bar-banner{margin-left:10px;}
+
+div.breadcrumb {margin-top: 10px; margin-bottom: 10px;}
+
+div.ecf-menu-bar {background-color: #FFC20E; height:40px;}
+    div.ecf-menu-bar > div {background-color: #FFC20E; height: 40px;}
+    div.ecf-menu-bar ul {font-size: 0.85rem; padding-top: 8px;}
+    div.ecf-menu-bar a {color: black;}
+    div.ecf-menu-bar p.i18n {font-size: 0.85em;}
+    div.search-box {padding-top:8px;}
+        div.search-box input {height: 25px;}
+        div.search-box a.button {height: 25px; line-height: 25px; padding: 0 10px; margin: 0; color: #ffffff;}
+
+a.button {background-color: #333333; color: #ffffff;}
+a.button:hover, a.button:focus {background-color: #666666;}
+
+div.ecf-black-bar {height: 10px; margin-top: 2em; background-color: #333333;}
+
+div.ecf-footer {background-color: #FFC20E;}
+    div.ecf-footer img.logo-unive {margin-bottom:10px; margin-right: 20px;}
+    div.ecf-footer img.logo-ecf {margin-bottom:10px;}
+
+
+div.ecf-footer p {font-size: 0.6rem;line-height:1.0;}
+
+/** main content **/
+h1, h2, h3 {font-weight: 500;}
+h2, h3 {color: #FFC20E;}
+h1 {margin-top:1em; margin-bottom:1rem; margin-left: 1rem;font-size: 1.4rem;}
+h2 {font-size: 1.2rem;}
+h3 {font-size: 1.1rem;}
+div.download h3 {color: black; font-size:0.9rem;}
+div.ecf-main-content ol, ul {margin-left: 2.5rem;}
+div.ecf-main-content ol {list-style-type: lower-alpha;}
+ul.chi-siamo {margin-left: 0;}
+ul.chi-siamo li {list-style: none; font-size:0.85rem; line-height: 1.2; margin-bottom:0.5em;}
+div.ecf-contatti p, div.download p {font-size:0.8rem;line-height: 1.2;}
+
+#form_pubblica_con_noi {}
+#form_pubblica_con_noi label {}
+#form_pubblica_con_noi input, select {}
+#form_pubblica_con_noi input.submit {background-color: #333333; color: #FFFFFF;}
+
+/** list pages **/
+ul.covers h2 {line-height: 1.1;}
+ul.covers h2 a {color: #666666; font-size: 1.1rem;}
+
+div.serie-desc {margin-bottom:2em;}
+div.serie-desc h2 {color: #333333; font-size: 1.1rem; margin-bottom: 0;}
+
+img.logo-thumb {width:25px;}
+
+.descShort, .descLong {font-style: italic; line-height: 1.25;}
+/** detail pages**/
+div.book-details {margin-top:2em;}
+div.book-details div.cover {margin-bottom:1em;}
+div.book-details h1 {margin:0;}
+div.book-details h2 {margin:0; color: #666666; font-size:1.0rem;}
+div.book-details p.authors {margin-top: 0.5em; font-size: 1.1rem;}
+div.book-meta ul {padding-left: 15px; border-left: 1px solid #FFC20E;}
+div.book-meta li {margin-bottom: 1.5em; line-height: 1.0;}
+div.serie h1 {margin-bottom:1em;}
+div.serie-board dd {margin-left: 1em; font-size: 0.9rem; line-height: 1.15;}
+ul.meta {margin-top:2em;}
+ul.meta li {margin-bottom: 1.5em; line-height: 1.0;}
+span.book-meta {margin-left: -0.8em; background-color: #FFC20E; color: black; font-size: 0.8rem;}
+span.book-meta-val {font-size: 0.8rem;}
+
+.
+
+div.main-toc h2 {margin-top: 1em; margin-bottom: 1em; font-size: 1.4rem;}
+div.main-toc ul a {color: #000000; font-weight: 500;}
+div.main-toc ul.level-1 {margin-left: 0;}
+div.main-toc ul.level-2 {margin-left: 1em; line-height: 1.25;}
+div.main-toc ul.level-2 li {margin-bottom: 1em;}
+div.main-toc ul li {list-style-type: none;}
+span.toc-item-authors {display: block; color:#666666; font-weight: normal;}
+/* The accordion is closed */
+.accordion-icon:before {content: "\f0d7";}
+/* The accordion is open */
+.active .accordion-icon:before {content: "\f0d8";}
+
+/* Article body*/
+
+div.article-body p {font-size: 1.2rem;}
+div.magellan-container {min-height: 50px;height:auto; margin-left: 1em; margin-bottom:2em; padding-top: 5px;}
+
+div.magellan-container dl {border-bottom: 1px solid #FFC20E; padding-bottom:5px;}
+div.magellan-container dd {margin: 0;}
+div.magellan-container dd.active a {background-color: #FFFFFF; color: #FFC20E; }
+
+
+
